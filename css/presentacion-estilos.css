@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    margin: auto;
+
+    width: 80%;
+    height: 60%;
+    background-color: lightgoldenrodyellow;
+}
+
+.contenedor-imagen{
+    
+    width: 30%;
+    height: 40%;
+    background-color: lightcyan;
+
+}
