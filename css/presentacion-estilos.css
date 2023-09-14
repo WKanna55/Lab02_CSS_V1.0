@@ -22,9 +22,17 @@
 .contenedor-simple{
     overflow: auto;
     width: 100%;
-    height: 60%;
+    /*height: 60%;*/
     
     /*background-color: lightgreen;*/
+}
+
+.contenedor-simple-center{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    overflow: auto;
+    
 }
 
 .contenedor-simple.prueba{
@@ -33,25 +41,24 @@
 }
 
 .contenedor-imagen{
-    padding: 1em 1em 1em 1em;
+    float: left;
     text-align: center;
-    width: 25%;
-    /*height: 80%;*/
+    width: 260px;
+    height: 270px;
     background-color: rgb(84, 84, 100);
-    overflow: hidden;
-    position: relative;
+    border-radius: 10px;
+    padding: 1em 1em 1em 1em;
 }
 
 .contenedor-texto{
     float: right;
     margin-left: 10px;
-    width: 65%;
-    height: 60%;
+    width: 60%;
+    
     background-color: rgb(77, 70, 167);
     border-radius: 20px;
     padding: 2em 2em 2em 2em;
-    overflow: hidden;
-    position: relative;
+    overflow: auto;
 }
 
 .contenedor-audio{
@@ -60,8 +67,8 @@
     width: 100%;
 }
 
-h3{font-size: 27px;}
-h4{font-size: 27px;}
+h3{font-size: 27px; color: aliceblue;}
+h4{font-size: 27px; color: aliceblue;}
 p{font-size: 20px;}
 
 .tabla{
